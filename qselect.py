@@ -5,6 +5,7 @@ def qselect(num,array):
 	pivot=array[0]
 	# print(pivot)
 	left=[x for x in array if x<pivot]
+	array.remove(pivot)
 	# print(len(left))
 	if num<len(left):
 		return qselect(num,left)
@@ -30,7 +31,8 @@ def qselect(num,array):
 # 		return(sort(array)[num-1])
 # qselect(2, [3, 10, 4, 7, 19])
 # print(qselect(4, [11, 2, 8, 3]))
-# qselect(2,[3,10,4,7,19])
-# print(qselect(2,[3,10,4,7,19]))
+qselect(2,[3,10,4,7,19])
+print(qselect(2,[3,10,4,7,19]))
 print(qselect(2, [1, 2, 7, 3, 1, 1, 1, 11, 2, 8, 3]))
-# print(qselect(2, [2, 2, 8, 3]))
+print(qselect(2, [3, 10, 4, 7, 19]))
+print(qselect(2, [2, 2, 8, 3]))
