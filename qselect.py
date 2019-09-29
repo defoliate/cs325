@@ -8,7 +8,7 @@ def qselect(num,array):
 		left=[x for x in array if x<pivot]
 		right=[x for x in array[1:] if x>=pivot]
 		array=left+[pivot]+right
-		return[x for x in array if len([y for y in array if y<=x])==num]
+		return [x for x in array if len([y for y in array if y<=x])==num][0]
 		# print(result)
 		return qselect(num,left)+[pivot]+qselect(num,right)
 		#iterate
