@@ -1,5 +1,15 @@
+
+0. 
+Q:What's the best-case, worst-case, and average-case time complexities of quicksort. Briefly explain each case.
+A:
+best-case: the list is given by the order that we want.
+anverage-case: the list is random, the complexity should be accumulated in Math Expectited value.
+worst-case: the list is sorted by the averse order that we should sort from top to the bottom list.
+--------------------------
+Debriefing:
+
 1. almost 3 days. Linux enviornment costs me almost 2 days.
 2. difficult. i'm not familiar with python. maybe only 5% knowledge.
 3. I did my work absolutely alone in writing python with the help of google searching engine. But i also got some help from my classmates in mac's environment configuration.
-4. I have understood the lecture's 80% content with professor video's help, except Binary Search Tree which I want to ask in office hour but it's conflict with my other class. Though after first class I only understood 50% or less, I wanna spend more time on Algorithm.
-5. It's very pleased to see the video. I'm in pathway program, but i don't think i can't handle the class. Could you please send some key concepts or materials before class and help me understand ahead? I'll google them before class.
+4. I have understood the lecture's 80% content with professor video's help, except Binary Search Tree which I want to ask in office hour but it's conflict with my other class, though after first class I only understood 50% or less.
+5. It's very pleased to see the video. I'm in pathway program, but i don't think i can't handle the class. Could you please send some key concepts or materials before class and help me understand ahead? I'll google them before class. 
