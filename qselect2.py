@@ -31,5 +31,5 @@ def qselect(num,array):
 # qselect(2, [3, 10, 4, 7, 19])
 print(qselect(4, [11, 2, 8, 3]))
 # qselect(2,[3,10,4,7,19])
-# print(qselect(2,[3,10,4,7,19]))
+print(qselect(2,[3,10,4,7,19]))
 # print(qselect(2, [2, 2, 8, 3]))
