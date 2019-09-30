@@ -1,13 +1,16 @@
 # def qselect(num,array):
+import random
 def qselect(num,array):
 	if array==[]:
 		return array
-	pivot=array[0]
-	# print(pivot)
-	left=[x for x in array if x<pivot]
+	# print(array)
+	pivot=array[random.randint(0,len(array)-1)]
 	array.remove(pivot)
+	left=[x for x in array if x<pivot]
+	# print(pivot)
+	# if(pivot!=n):
 	# print(len(left))
-	if num<len(left):
+	if num<=len(left):
 		return qselect(num,left)
 	if num==len(left)+1:
 		return pivot
@@ -31,7 +34,7 @@ def qselect(num,array):
 # 		return(sort(array)[num-1])
 # qselect(2, [3, 10, 4, 7, 19])
 # print(qselect(4, [11, 2, 8, 3]))
-qselect(2,[3,10,4,7,19])
+# qselect(2,[3,10,4,7,19])
 print(qselect(2,[3,10,4,7,19]))
 print(qselect(2, [1, 2, 7, 3, 1, 1, 1, 11, 2, 8, 3]))
 print(qselect(2, [3, 10, 4, 7, 19]))
