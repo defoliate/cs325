@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <cstdlib>
 using namespace std;
 using std::endl;
 /*execute merge action devide-conquer.the function has 2
@@ -62,7 +63,7 @@ void timeMergeSort(vector<int>& vectorToSort, int datapoint){
 int main(){
     vector<int> vectors[10];
     cout << "Merge Sort:" << endl;
-    //test 10 times,from 5,000,000 to 15,000,000
+    //test 10 times,from 5,000,000 to 14,000,000
     for(int i = 0, vSize = 5000000; i < 10; i++){
         loadVector(vectors[i], vSize);
         timeMergeSort(vectors[i], i + 1);

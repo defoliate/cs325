@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 // #include <fstream>
 #include <vector>
 #include <ctime>
