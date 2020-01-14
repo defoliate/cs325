@@ -1,0 +1,17 @@
+README.TXT
+AUTHOR:QINGXIAO YUAN
+
+This is written by c++,assume having c++ environment.
+
+Please perform it by the following steps:
+
+insortsort.cpp&mergesort.cpp:
+1.Copy insertsort.cpp,mergesort.cpp,data.txt in your computer.
+2.Place them in the same directory.
+3.It will output an insert.txt,merge.txt respectively,which is sorted result.
+
+insertTime.cpp&mergeTime.cpp:
+1.execute them directly.
+2.it will output the specific time as the test number increasing.
+
+
