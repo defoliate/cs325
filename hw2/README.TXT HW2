@@ -1,0 +1,19 @@
+README.TXT
+AUTHOR:QINGXIAO YUAN
+
+This is written by c++,assume having c++ environment.
+
+Please perform it by the following steps:
+
+mergesort3.cpp:
+1.Copy mergesort3.cpp,data.txt in your computer.
+2.Place them in the same directory.
+3.open command tools,type "g++ mergesort3.cpp" to compile. The run command is "./a.out".
+4.It will output an merge3.txt,which is sorted result.
+
+merge3Time.cpp:
+1.execute them directly.
+2.open command tools,type "g++ merge3Time.cpp" to compile. The run command is "./a.out".
+3.it will output the specific time as the test number increasing.
+
+
