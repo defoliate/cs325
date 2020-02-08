@@ -5,15 +5,15 @@ This is written by c++,assume having c++ environment.
 
 Please perform it by the following steps:
 
+knapsack.cpp:
+1.open command tools,type "g++ knapsack.cpp" to compile. The run command is "./a.out".
+2.it will output the result to the console.
+
 shopping.cpp:
-1.Copy mergesort3.cpp,data.txt in your computer.
+1.Copy shopping.cpp,shopping.txt in your computer.
 2.Place them in the same directory.
 3.open command tools,type "g++ shopping.cpp" to compile. The run command is "./a.out".
-4.It will output an results.txt,which is sorted result.
+4.It will output an results.txt,which is the sorted result.
 
-knapsack.cpp:
-1.execute them directly.
-2.open command tools,type "g++ knapsack.cpp" to compile. The run command is "./a.out".
-3.it will output the result in the console.
 
 
