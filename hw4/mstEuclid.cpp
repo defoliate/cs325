@@ -83,7 +83,7 @@ private:
 // graph class
      class GRAPH{
      private:
-       int size;// node size
+       int size;// total node size
        int **ary;// distance d array
        Node *node;// node list
        int ind;// current index
