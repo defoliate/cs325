@@ -172,6 +172,7 @@ private:
        // print mst
        void printmst(int *p){
          int total=0;
+         cout<<"Edges in MST"<<endl;
          cout<<"Point (x,y)\t"<<"\tDistance"<<endl;
          for(int i=1;i<size;i++){
 
