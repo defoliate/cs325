@@ -1,0 +1,10 @@
+README.TXT
+AUTHOR:QINGXIAO YUAN
+
+This is written by c++,assume having c++ environment.
+
+Please perform it by the following steps:
+
+mstEuclid.cpp:
+1.open command tools,type "g++ mstEuclid.cpp" to compile. The run command is "./a.out".
+2.it will output the result to the console.
