@@ -8,11 +8,11 @@ def euclideandistance(x1, y1, x2, y2):
 def printgraph(p,n,dist):
     total = 0
     print("Edges in MST ")
-    print ("Point (x,y)\t\t\t\t\tdistance")
+    print ("Point (x,y)\t\t    distance")
     for i in range(1, n):
-        print '\t(%s'%'',arr[p[i]][0],',',arr[p[i]][1],')-', '(',arr[i][0],',',arr[i][1],')\t\t', dist[i][p[i] ] 
+        print '(%s'%'',arr[p[i]][0],',',arr[p[i]][1],')-', '(',arr[i][0],',',arr[i][1],')\t\t', dist[i][p[i] ] 
         total += dist[i][p[i]]
-    print '\t\tTotal distance\t\t\t',total
+    print '\tTotal distance\t\t',total
 def findminimum(k, visited,n):
     min = 99999
     for v in range(n):
