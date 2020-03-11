@@ -77,7 +77,7 @@ int main(int argc, char* argv[]) {
    auto end_time = std::chrono::high_resolution_clock::now();
    auto time = end_time - start_time;
 
-   std::cout << "Time: " << std::chrono::duration_cast<std::chrono::microseconds>(time).count() << " microseconds" << std::endl;
+   std::cout << "Time: " << std::chrono::duration_cast<std::chrono::milliseconds>(time).count() << " ms" << std::endl;
 
    return 0;
 }
