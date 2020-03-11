@@ -68,7 +68,7 @@ int main(int argc, char* argv[]) {
    //run 2-opt
    tour = two_opt(adj_matrix, tour);
    cost = calc_cost(adj_matrix, tour, num_cities);
-   std::cout << "Total cost after TO: " << cost << std::endl;
+   std::cout << "Total Cost: " << cost << std::endl;
 
    // write output vector into txt.tour file
    std::string out_file_name  = in_file_name + ".tour"; 
