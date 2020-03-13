@@ -40,7 +40,6 @@ int calc_cost(std::vector<std::vector<int> > adj_matrix, std::vector<int> tour, 
 
   for (int i = 0; i < num_cities - 1; i++) {
       cost += adj_matrix[tour[i]][tour[i+1]]; 
-      //std::cout << adj_matrix[tour[i]][tour[i+1]] << std::endl;
   }
 
   cost += adj_matrix[tour[num_cities-1]][tour[0]];
@@ -63,7 +62,7 @@ int main(int argc, char* argv[]) {
    //run nearest neighbor
    tour = nearest_neighbor(adj_matrix);
    cost = calc_cost(adj_matrix, tour, num_cities);
-   //std::cout << "Total cost after NN: " << cost << std::endl;
+   
 
    //run 2-opt
    tour = two_opt(adj_matrix, tour);
