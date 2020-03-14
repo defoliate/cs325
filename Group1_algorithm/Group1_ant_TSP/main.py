@@ -13,7 +13,8 @@ def main():
     start = time.time()
     cities = []
     points = []
-    with open('./data/test-input-6.txt') as f:
+    value = input('Input a file:')
+    with open(value) as f:
         for line in f.readlines():
             line = line.strip();
             #city = line.split(' ')
