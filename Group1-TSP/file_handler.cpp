@@ -19,7 +19,6 @@ int compute_distance(int x1, int y1, int x2, int y2) {
    double dx = x2 - x1;
    double dy = y2 - y1;
    double dist = sqrt(dx*dx + dy*dy);
-   cout<<dist;
    return (int) round(dist);
 }
 
